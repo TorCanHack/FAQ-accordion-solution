@@ -97,7 +97,7 @@ element::after {
 
 HTMl collections and NodeLists are both collections of DOM elements that can be accessed by index numbers.
 
-A NodeList can be created by methods such as ==querySelectorAll==, ==childNodes== and ==attributes==. An HTMLCollection can be created by elements such as ==getElementsByClassName==, ==getElementsByTagName==, and ==children==.
+A NodeList can be created by methods such as querySelectorAll, childNodes and attributes. An HTMLCollection can be created by elements such as getElementsByClassName, getElementsByTagName, and children.
 
 Both of them enable manipulation of DOM elements via interation although the forEach() function does not work on HTMLCollection.
 
