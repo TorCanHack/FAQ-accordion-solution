@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+body {
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans";
+    
+}
+
+h1 {
+    color: hsl(292, 42%, 14%);
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    top: -3rem;
+    left: 10rem;
+}
+
+.star{
+    position: relative;
+    top: 4rem;
+    left: 4rem;;
+}
+
+details {
+    height: 6vh;
+}
+.container{
+    position: relative;
+    top: -17rem;
+    border: 1px solid white;
+    width: 38vw;
+    min-width: 280px;
+    height: 68vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: -2px 2px 55px hsl(292, 16%, 49%);
+
+    
+}
+
+
+p{
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(292, 16%, 49%)
+}
+
+.accordion {
+    position: relative;
+    top: -4rem;
+    font-size: 2.5vh;
+    font-weight: 600;
+    display: block;
+    background-color: white;
+    color: hsl(292, 42%, 14%);
+    height: 11vh;
+    border: none;
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    
+}
+.accordion:after {
+    position: relative;
+    content: url("https://svgshare.com/i/126E.svg");
+    top: 1rem;
+    
+}
+
+.active::after {
+    content: url("https://svgshare.com/i/129C.svg");
+    position: relative;
+    top: 1rem;
+}
+.active, .accordion:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.panel {
+    position: relative;
+    top: -4rem;
+    border: none;
+    display: none;
+    overflow: hidden;
+    transform: max-height 0.2s ease-out;
+}
+
+@media only screen and (max-width: 320px) {
+
+    *{
+        overflow: hidden;
+    }
+
+    h1 {
+        color: hsl(292, 42%, 14%);
+        font-weight: 600;
+        font-size: 25px;
+        position: relative;
+        top: -4.6rem;
+        left: 4rem;
+    }
+
+    .container {
+        height: 70vh;
+    }
+
+    .star {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 20px;
+    }
+
+    .accordion {
+        display: block;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    p {
+        font-size: 13px;
+    }
+    .background_image {
+        width: 100vw;
+        
+    }
+  
+   
+    
+}
