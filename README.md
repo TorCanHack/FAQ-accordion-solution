@@ -47,9 +47,9 @@ Users should be able to:
 
 Having access to different kinds of fonts is a useful flexibiity for rendering different texts on a webpage. Initially I had always used the default fonts provided by css. Fortunately, while solving this challenge I learned how to apply google font using the <link> tag. It's quit simple actaully, here's an example:
 
-'''html
+````html
 <link rel="stylesheet" href="inlcude google font url here">
-'''
+````
 then you can select the font in css as follows:
 
 ````css
